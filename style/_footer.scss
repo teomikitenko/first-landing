@@ -1,0 +1,119 @@
+footer{
+width: 100%;
+height: 100%;
+    .footer_block{
+        display: $display;
+        margin-top: 60px;
+        justify-content: space-between;
+         
+       
+        .occasion_footer{
+            .ocassions_zagolovok{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                color: $colorLetter;
+            }
+            .ocassions_text{
+                padding-top: 15px;
+              
+            }
+            .ocassions_text p{
+                cursor: pointer;
+                color: #3D3D3D;
+                text-decoration:none;
+                font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+ line-height: 22px;
+color: $colorLetter;
+  }
+        }
+        .all_header{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+        }
+        .all_text{
+            padding-top: 15px;
+            
+             p{
+                color: #3D3D3D;
+
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+        }
+        }
+        .gifts_header{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+color: $colorLetter;
+}
+.gifts_text{
+    padding-top: 15px; 
+          
+p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #3D3D3D
+}
+}
+.bands_footer p{
+    color: $colorLetter;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+color: #3D3D3D;
+}
+.about_us_footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: $colorLetter;
+}
+
+    }
+}
+.ft_block{
+  width: 152px;
+  
+}
+.ocassions_text p:not(:first-child){
+    padding-top: 18px;
+}
+.all_text p:not(:first-child){
+    padding-top: 18px;
+}
+.gifts_text  p:not(:first-child){
+    padding-top: 18px;
+}
+.gifts_footer{
+    width: 178px;
+}
+.after_block{
+    width: 100%;
+    height: 66px;
+}
+.texts p{
+    padding-top: 10px;
+    color: #3D3D3D;
+}

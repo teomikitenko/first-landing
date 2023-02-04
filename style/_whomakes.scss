@@ -1,0 +1,93 @@
+.food_block{
+    display: $display;
+    justify-content: space-between;
+    width: 1170;
+    height: 487px;
+    margin-top: 86px;
+    .products_button button{
+        margin-top:30px ;
+        width: 270px;
+        height: 45px;
+        background-color: $mainColor;
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: $backColor;
+    border: transparent;
+    border-radius: 5px;
+    }
+    .text_part{
+        margin-right: 30px;
+
+        width: 50%;
+        font-family: 'Cormorant';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: $colorLetter;
+span{
+color: $mainColor;
+}
+.block_text{
+    margin-top: 20px;
+    width: 600px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: $colorLetter;
+
+}
+    }
+    .food_img{
+        width: 570px;
+        height: 487px;
+      img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  
+}
+.block_text_ul>ul{
+/*     padding-top: 40px;
+ */    
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+padding-inline-start: 0;
+
+li{ 
+    
+    margin-left: 35px;
+    padding-top:20px ;
+    list-style-type: none;
+    position: relative;
+   
+}
+li::before{
+    content: '>';
+     box-sizing: border-box;
+     left: -36px;
+    border: transparent;
+    border-radius: 100px;
+    position: absolute;
+    transform: rotate(91deg);
+    padding:1px 3px 3px 8px;
+    width: 24px;
+    color: $backColor;
+    height: 24px;
+    background-color: $mainColor;
+}
+
+   }
+   .block_text_ul{
+    padding-top: 17px;
+   }

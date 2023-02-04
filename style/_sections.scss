@@ -1,0 +1,54 @@
+.sections{
+    .zagolovok_sections{
+        color: $colorLetter;
+        padding-top: 123px;
+        text-align: center;
+        font-family: 'Cormorant';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+span{
+    color: $mainColor;
+}
+    }
+    .nav_items_conteiner{
+        padding-top: 53px;
+        display: $display;
+        gap: 30px;
+    }
+    .nav_items{
+        width: 210px;
+        height: 301px;
+       .item_icons{
+        width: 48px;
+        height: 48px;
+        
+       }
+       .item_zagolovok {
+        padding-top: 20px;
+        font-family: 'Cormorant';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: $colorLetter;
+
+       }
+       .item_text{
+        padding-top:10px ;
+        width: 210px;
+        height: 163px; 
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: $colorLetter;
+       }
+    }
+}
+.zag_two{
+    padding-top: 19.8px;
+}

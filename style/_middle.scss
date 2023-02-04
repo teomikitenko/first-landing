@@ -1,0 +1,87 @@
+.our_group{
+    width: 100%;
+    padding-top: 80px;
+   
+    .middle_block{
+        display: $display;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        margin:auto ;
+        padding-top:60px ;
+        width: 770px;
+        height: 275px;
+       
+         position: relative;
+       z-index: 3;
+       gap: 30px;
+       .logo_middle{
+        align-self: center;
+        width: 100px;
+        height: 130px;
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+       }
+       .button_middle {
+        align-self: center;
+    button{
+        margin-bottom: 60px;
+        height: 45px;
+        width: 330px;
+        background-color: $mainColor;
+        border: transparent;
+        color: $backColor;
+        border-radius: 5px;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+    }
+    }
+ .middle_zagolovok{
+            text-align: center;
+            font-family: 'Cormorant';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: $backColor;
+        }
+    }
+.cover_group{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1360px;
+    height: 395px;
+   .img_group {
+    object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+           
+
+    }
+}
+}
+.mask_img{
+    max-width: 1360px;
+    height: 395px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    img{
+        object-fit: cover;
+        width: 100%;
+    height: 100%;
+    }
+}
+
+

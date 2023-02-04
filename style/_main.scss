@@ -1,0 +1,68 @@
+  
+.main{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    .cover_conteiner{
+        position: relative;
+        margin: 0 auto;
+        max-width:1360px;
+        height: 500px;   
+        .cover{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        } 
+        .cover_text_button{
+            position: relative;
+            width: 570px;
+                height: 60px;
+            padding: 125px 655px 315px 3px;
+            z-index: 4;
+            .first_text{
+                color: $colorLetter;
+                font-family: 'Cormorant';
+                font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+
+            }
+            .second_text{
+                padding-top: 5px;
+                padding-left: 3px;
+                color: $colorLetter;
+                font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 39px;
+
+            }
+            .cover_button{
+                padding-top: 40px;
+                padding-left: 6px;
+            }
+            button{
+               
+                width: 200px;
+height: 45px;
+            background-color: $mainColor;
+            color: $backColor;
+            border-radius: 5px;
+            border: transparent;
+            p{
+                font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+            }
+            }
+        }
+    }
+}

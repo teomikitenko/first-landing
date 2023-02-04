@@ -1,0 +1,85 @@
+.offers_zag{
+    margin-top: 89px;
+    white-space: nowrap;
+    text-align: center;
+    color: $colorLetter;
+    font-family: 'Cormorant';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+ span{
+    color: $mainColor;
+}
+}
+.sections_items{
+    margin-top: 40px;
+  gap: 30px;
+    display: $display;
+    height: 332px;
+    width: 100%;
+    
+}
+.item{
+ 
+    background: #F7F5F0;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+ border-radius: 20px;
+     width: 270px;
+    height: 332px;
+
+    .items_img{
+        width: 270px;
+height: 160px;
+img{
+    object-fit: cover;
+}
+    }
+    .item_name_price{
+        .name{
+            color: $colorLetter;
+            padding-top: 20px;
+            text-align: center;
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+        }
+        .price{
+            padding-top: 5px;
+            color: $mainColor;
+            text-align: center;
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+        }
+        span{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-decoration-line: line-through;
+color: #656565;
+padding-left: 5px;
+        }
+
+    }
+}
+.items_buy button{
+    margin: 20px 20px 30px 20px;
+    background-color: $mainColor;
+    border-radius: 5px;
+    border: transparent;
+    width: 230px;
+    height: 40px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: $backColor;
+}
